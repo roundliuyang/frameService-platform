@@ -33,8 +33,8 @@ public class OrderController {
     public CommonResult<String> create(@RequestBody Order order) {
         orderService.create(order);
 
-        int i = 1 / 0;
-        System.out.println(111);
+//        int i = 1 / 0;
+//        System.out.println(111);
 
         System.out.println("222");
 //        while (true) {

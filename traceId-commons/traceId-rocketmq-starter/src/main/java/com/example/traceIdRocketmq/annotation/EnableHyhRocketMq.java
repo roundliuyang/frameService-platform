@@ -14,6 +14,6 @@ import java.lang.annotation.*;
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-@Import({RocketMqAutoConfiguration.class})
+@Import({RocketMqAutoConfiguration.class})     // todo  怎样实现自动配置的?
 public @interface EnableHyhRocketMq {
 }
